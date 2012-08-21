@@ -8,17 +8,22 @@ Ext.define("Colophone.view.Main", {
             {
                 xtype:'panel',
                 html:'logo',
-                flex: 1
+                style: 'background:#CCC;',
+                docked: 'top',
+                //flex: 1
             },
             {
                 xtype:'panel',
                 html:'Scrolly stuff',
+                style:'background:#FF0000;',
                 flex: 1
             },
             {
                 xtype:'panel',
                 html:'Capture and Answer Buttons',
-                flex: 1
+                style: 'background:#FFF000;',
+                docked:'bottom',
+                //flex: 1
             }
         ]
     }
