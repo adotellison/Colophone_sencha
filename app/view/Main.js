@@ -20,9 +20,21 @@ Ext.define("Colophone.view.Main", {
             },
             {
                 xtype:'panel',
-                html:'Capture and Answer Buttons',
                 style: 'background:#FFF000;',
                 docked:'bottom',
+                layout:'hbox',
+                items: [
+                    {
+                        xtype:'panel',
+                        html:'Capture',
+                        flex: 1
+                    },
+                    {
+                        xtype:'panel',
+                        html:'Answer',
+                        flex: 1
+                    }
+                ]
                 //flex: 1
             }
         ]
