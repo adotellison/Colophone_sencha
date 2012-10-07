@@ -9519,3 +9519,30 @@ input[type="search"]::-webkit-search-cancel-button {
   background-image: linear-gradient(top, rgba(144, 202, 242, 0.9), rgba(167, 213, 244, 0.9) 10%, rgba(190, 224, 247, 0.9) 65%, rgba(192, 225, 247, 0.9));
   border: 0.1em solid rgba(25, 133, 208, 0.9);
 }
+
+/*
+.header {
+	background-image: none;
+	background-color: #f7f7f7;
+	border-bottom-color:none !important;
+	border-bottom:none !important;
+	box-shadow: 0px 0px 5px #000;
+}
+
+.footer {
+	background:#f7f7f7;
+	.footer_button {
+		background-image: none !important;
+		background-color: none !important;
+		border: none !important;
+		border-top-color: none !important;
+		color: none !important;
+		-webkit-border-radius: none !important;
+		border-radius: none !important;
+	}
+}
+
+.cp_logo {
+	background:#CCC;
+}
+*/

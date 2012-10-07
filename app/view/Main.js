@@ -6,34 +6,45 @@ Ext.define("Colophone.view.Main", {
         layout: 'vbox',
         items: [
             {
-                xtype:'panel',
-                html:'logo',
+                xtype:'toolbar',
                 cls: 'header',
                 docked: 'top',
                 //flex: 1
+                items: [
+                    {
+                        xtype:'panel',
+                        html:'CP',
+                        cls: 'cp_logo',
+                        centered : true,
+                        flex: 1
+                    }
+                ]
             },
             {
                 xtype:'panel',
                 html:'Scrolly stuff',
                 cls: 'content',
-                style:'background:#FF0000;',
                 flex: 1
             },
             {
                 xtype:'panel',
-                style: 'background:#FFF000;',
                 cls: 'footer',
                 docked:'bottom',
                 layout:'hbox',
                 items: [
-                    {
-                        xtype:'panel',
-                        html:'Capture',
+                    {   
+                        xtype:'button',
+                        iconCls: 'action',
+                        title: 'Capture',
+                        cls:'footer_button',
                         flex: 1
                     },
                     {
-                        xtype:'panel',
-                        html:'Answer',
+                        xtype:'button',
+                        iconCls: 'home',
+                        title: 'Answer',
+                        cls:'footer_button',
+                        view:'Answer',
                         flex: 1
                     }
                 ]
